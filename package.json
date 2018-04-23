@@ -1,0 +1,26 @@
+{
+  "name": "michetta-demo",
+  "version": "1.0.0",
+  "description": "Demo app for Michetta",
+  "scripts": {
+    "build": "michetta"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aozora/michetta-demo.git"
+  },
+  "keywords": [
+    "michetta",
+    "vuejs"
+  ],
+  "author": "Marcello Palmitessa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aozora/michetta-demo/issues"
+  },
+  "homepage": "https://github.com/aozora/michetta-demo#readme",
+  "dependencies": {},
+  "engines": {
+    "node": ">=8"
+  }
+}
