@@ -2,8 +2,9 @@
   "name": "michetta-demo",
   "version": "1.0.0",
   "description": "Demo app for Michetta",
+  "main": "index.js",
   "scripts": {
-    "build": "michetta"
+    "build": "node index.js"
   },
   "repository": {
     "type": "git",
