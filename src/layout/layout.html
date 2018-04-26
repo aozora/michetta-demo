@@ -5,10 +5,14 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <title>{{ title }}</title>
 
   {{{ userHeadTags }}}
   {{{ pageMeta }}}
+
+  <!-- vue-meta -->
+  {{{ meta.inject().title.text() }}}
+  {{{ meta.inject().meta.text() }}}
+  <!-- /vue-meta -->
 
   <link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="img/apple-icon-60x60.png">
@@ -27,8 +31,11 @@
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="/img/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
+
+  {{{ renderResourceHints() }}}
+  {{{ renderStyles() }}}
 </head>
-<body>
+<!-- body is rendered by app.js -->
 <!--vue-ssr-outlet-->
-</body>
+{{{ renderScripts() }}}
 </html>

@@ -7,6 +7,9 @@
 
 <script>
 export default {
-  name: "index"
-}
+  name: 'index',
+  metaInfo: {
+    title: 'Home page'
+  }
+};
 </script>
