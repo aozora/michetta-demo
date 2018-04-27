@@ -6,9 +6,8 @@ module.exports = {
       // { rel: 'stylesheet', href: '/css/index.css' },
       { rel: 'favicon', href: '/favicon.ico' }
     ]
-  }
-  // head: [
-  //   ['link', { rel: 'icon', href: `/favicon.ico` }]
-  // ]
+  },
+  layoutTemplate: 'layout/default.html',
+  pageTemplate: './Page.vue'
 };
 
