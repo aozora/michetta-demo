@@ -1,9 +1,7 @@
 <template>
   <div id="layout">
     <site-header></site-header>
-    <main>
-      <router-view class="view"></router-view>
-    </main>
+    <router-view class="view"></router-view>
     <site-footer></site-footer>
   </div>
 </template>
@@ -13,9 +11,9 @@ import SiteHeader from '@components/SiteHeader';
 import SiteFooter from '@components/SiteFooter';
 
 export default {
-  components: [
+  components: {
     SiteHeader,
     SiteFooter
-  ]
+  }
 };
 </script>
