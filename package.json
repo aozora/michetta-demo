@@ -4,8 +4,8 @@
   "description": "Demo app for Michetta",
   "main": "index.js",
   "scripts": {
-    "dev": "michetta dev",
-    "build": "michetta build"
+    "dev": "michetta dev src",
+    "build": "michetta build src"
   },
   "repository": {
     "type": "git",
